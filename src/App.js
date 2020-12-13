@@ -8,7 +8,7 @@ function App() {
       <section className="container">
         <h3>{people.length} birtjday today</h3>
         <List people={people} />
-        <button onClick={() => console.log("you cliked me")}>Clear All</button>
+        <button onClick={() => setPeople([])}>Clear All</button>
       </section>
     </main>
   );
